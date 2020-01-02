@@ -14,14 +14,14 @@ end
 def using_shift(array)
   array.shift()
 end
-def using_shift_args( array)
+def shift_with_args( array)
   array.shift(2)
 end
 def using_concat (array, string)
   array.concat(string)
 end
-def using_insert(array, string)
-  array.insert(string)
+def using_insert(array, element)
+  array[4].insert(element)
 end
 def using_uniq(array)
   array.uniq
@@ -32,8 +32,8 @@ end
 def using_delete(array, string)
   array.delete(string)
 end
-def using_delete_at(array, number)
-  array.delete(number)
+def using_delete_at(array, index)
+  array[index].delete
 end
 
   
